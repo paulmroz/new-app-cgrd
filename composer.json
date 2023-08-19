@@ -1,0 +1,10 @@
+{
+    "name": "pawel/project",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Http\\": "Http/",
+            "Core\\": "Core/"
+        }
+    }
+}

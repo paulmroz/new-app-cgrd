@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("/public/images/waves.svg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  
+  .navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; 
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-container {
+    background-color: #f7fafc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+.error-container {
+  background-color: #ffb1b1;
+  border-radius: 8px;
+  border: 2px solid #da1414;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #da1414;
+  text-align: center;
+}
+
+.info-container {
+  background-color: #d1f3cd;
+  border-radius: 8px;
+  border: 2px solid #05ee19;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #05ee19;
+  text-align: center;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #d2d6dc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.form-button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.form-button:hover {
+    background-color: #357ec7;
+}
+
+.news-container {
+  list-style: none;
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.news-item {
+  display: flex;
+  background-color: #f7fafc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  width: 94%;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.no-border {
+  border: none;
+  box-shadow: none;
+}
+
+.actions-buttons {
+  display: flex;
+  justify-content: end;
+}
+
+.action-icon {
+  width: 20px;
+  width: 20px;
+}
+
+.hidden { 
+  display: none;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-edit-exit {
+  cursor: pointer;
+}
