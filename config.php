@@ -2,8 +2,10 @@
 
 return [
     'database' => [
-        'host' => 'db',
+        'host' => 'mysql:host=db',
         'dbname' => 'MYSQL_DATABASE',
+        'dbuser' => 'MYSQL_USER',
+        'dbpassword' => 'MYSQL_PASSWORD'
     ],
 
 ];

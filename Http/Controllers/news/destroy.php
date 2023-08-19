@@ -5,6 +5,7 @@ declare(strict_types=1);
 use Core\App;
 use Core\Database;
 use Core\Session; 
+
 $db = App::resolve(Database::class);
 
 $currentUserId = 1;
