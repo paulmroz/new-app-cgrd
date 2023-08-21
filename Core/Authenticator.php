@@ -15,7 +15,8 @@ class Authenticator
             'email' => $email
         ])->find();
 
-        if ($user) {
+        if ($user) 
+        {
             if (password_verify($password, $user['password'])) {
                 $this->login([
                     'email' => $email

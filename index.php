@@ -2,6 +2,11 @@
 
 declare(strict_types=1);
 
+// $password = 'test';
+// $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+
+// echo "Hashed Password: " . $hashedPassword;
+// die();
 use Core\Session;
 use Core\ValidationException;
 use Core\Router;
@@ -23,6 +28,7 @@ try {
 } catch (ValidationException $exception) {
     Session::flash('errors', $exception->errors);
     Session::flash('old', $exception->old);
+    Session::flash('info', $exception->old);
 
     return redirect($router->previousUrl());
 }

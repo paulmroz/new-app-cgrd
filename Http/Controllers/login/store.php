@@ -14,7 +14,8 @@ $signedIn = (new Authenticator)->attempt(
     $attributes['email'], $attributes['password']
 );
 
-if (!$signedIn) {
+if (!$signedIn) 
+{
     $form->error(
         'account', 'Wrong Login Data'
     )->throw();
